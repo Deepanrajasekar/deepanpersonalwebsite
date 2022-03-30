@@ -1,10 +1,10 @@
 <?php
 // database connection code
 // $con = mysqli_connect('localhost', 'database_user', 'database_password','database');
-$host ="ec2-54-160-109-68.compute-1.amazonaws.com"
-$port ="port=5432"
-$dbname ="dbname=d94vb9dvd4ste3"
-$credentials ="user=ydbnlatsdtsmte  password=7f3f7f6e8e94eaed6c1dc6d5cd538f7af3427fe24f762ecc7362a5c5d678735b"
+$host ="ec2-54-160-109-68.compute-1.amazonaws.com";
+$port ="port=5432";
+$dbname ="dbname=d94vb9dvd4ste3";
+$credentials ="user=ydbnlatsdtsmte  password=7f3f7f6e8e94eaed6c1dc6d5cd538f7af3427fe24f762ecc7362a5c5d678735b";
 $con = pg_connect( "$host $port $dbname $credentials");
 
 // get the post records
