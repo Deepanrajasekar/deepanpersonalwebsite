@@ -116,14 +116,28 @@
 				</div>
 				<div class="footer-contact-form">
 					<h5>Contact Form</h5>
-					<form class="contact-form" method="post" action="connect.php">
-						<div class="contact-form__input">
-							<input type="text" name="name" placeholder="Name">
-							<input type="email" name="email" placeholder="Email">
-						</div>
-						<textarea></textarea>
-						<input type="submit" name="submit" value="Submit" class="submit-button">
-					</form>
+					<form name="frmContact" method="post" action="contact.php" class="contact-form">
+						<p>
+						<label for="Name">Name </label>
+						<input type="text" name="txtName" id="txtName">
+						</p>
+						<p>
+						<label for="email">Email</label>
+						<input type="text" name="txtEmail" id="txtEmail">
+						</p>
+						<p>
+						<label for="phone">Phone</label>
+						<input type="text" name="txtPhone" id="txtPhone">
+						</p>
+						<p>
+						<label for="message">Message</label>
+						<textarea name="txtMessage" id="txtMessage"></textarea>
+						</p>
+						<p>&nbsp;</p>
+						<p>
+						<input type="submit" name="Submit" id="Submit" value="Submit">
+						</p>
+						</form>
 				</div>
 			</div>
 		</div>
